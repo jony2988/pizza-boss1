@@ -1,0 +1,89 @@
+
+body{
+    font-family: 'Dongle', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Roboto', sans-serif;
+background-color: black;
+}
+h1{
+    font-family: 'Kalam', cursive;
+   color:rgba(250,10,10,0.801)
+}
+li{
+    color: white;
+}
+li:hover{
+    color: rgba(250,10,10,0.801);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 26px;
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+    margin-inline:30px;
+    font-style: bold ;
+}
+/* ul li:hover{
+    background-color:white;
+    color:rgba(250,10,10,0.801);
+    cursor: pointer;
+    
+} */
+.carousel-item img{
+    width:20vh;
+    height:90vh;
+  }
+  .card-img-top{
+    height: 400px;
+    width: 100px;
+    border-radius: 3px;
+  }#p{
+    height:280px;
+    width:300px;
+  }
+  .form-floating{
+    text-align: center;
+    margin-left:10px; 
+    justify-content: center;
+   }
+  .sing{
+    text-align: center;
+  }
+   /* #input{
+    width: 200px;
+    margin-top:200px;
+    margin-left:100px;
+    margin-bottom: 300px;
+   }#submit{
+    width: 100px;
+    margin-top: 20px;
+    background-color:rgba(250,10,10,0.801) ;
+    color: white;
+    border: none;
+   }
+   #submit:hover{
+    background-color: rgb(69, 169, 232);
+   } */
+   .map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    margin-top: 70px;
+}
